@@ -1,0 +1,26 @@
+.login__form {
+   width: 500px;
+   height: 300px;
+   border: 1px solid #467ef0;
+   padding: 20px;
+   border-radius: 20px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.login__input {
+   padding: 5px;
+   font-size: 20px;
+   border: 1px solid #467ef0;
+}
+
+.login__input::placeholder {
+   font-size: 18px;
+}
+
+.login__btn {
+   padding: 5px;
+   font-size: 20px;
+}

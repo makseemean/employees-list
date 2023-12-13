@@ -1,0 +1,36 @@
+.employees__filter {
+   background-color: #467ef0;
+   padding: 20px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+   -webkit-box-shadow: 0px 12px 9px -8px rgba(0, 0, 0, 0.5);
+   -moz-box-shadow: 0px 12px 9px -8px rgba(0, 0, 0, 0.5);
+   box-shadow: 0px 12px 9px -8px rgba(0, 0, 0, 0.5);
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 15px;
+}
+
+.employees__filter-btns {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+
+.employees__filter-btn {
+   display: block;
+   text-wrap: nowrap;
+   padding: 3px 5px;
+}
+
+.employees__filter-btn.active {
+   color: #467ef0;
+   font-weight: 600;
+}
+
+.employees__search {
+   width: 100%;
+   padding: 3px 5px;
+}

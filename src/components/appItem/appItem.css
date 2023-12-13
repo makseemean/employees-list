@@ -1,0 +1,39 @@
+.employees__item {
+   display: grid;
+   align-items: center;
+   justify-content: space-between;
+   grid-template-columns: 120px 130px 100px 50px 80px;
+   gap: 15px;
+   padding: 20px 0;
+   margin-bottom: 10px;
+   border-bottom: 1px solid #467ef0;
+}
+
+.employees__item:last-child {
+   margin-bottom: 0;
+}
+
+.employees__item.hide {
+   display: none;
+}
+
+.employees__bonus.active {
+   color: #467ef0;
+   font-weight: 600;
+}
+
+.employees__salary {
+   display: block;
+   width: 100%;
+}
+
+.employees__dismissal {
+   color: #ff0000;
+   border: 1px solid #000;
+   transition: all .3s;
+}
+
+.employees__dismissal:hover {
+   background-color: #ff0000;
+   color: #fff;
+}
